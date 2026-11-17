@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7 ECLIPSES | 52Hz - The Whale Who Was Never Heard</title>
+<meta name="description" content="7 ECLIPSES - 52Hz Store by Shikha. Comfort of tee's of 7ECLIPSES. 200 GSM Pure Cotton.">
+<link rel="icon" href="https://via.placeholder.com/32">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0a0a12;color:#fff}
+header{position:sticky;top:0;background:#0a0a12;display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid #222;z-index:10}
+header b{letter-spacing:2px} header b span{color:#b79cff}
+nav a{color:#fff;text-decoration:none;margin:0 10px;font-size:14px}
+.cart-btn{background:#b79cff;color:#000;border:0;padding:9px 16px;border-radius:20px;font-weight:700;cursor:pointer}
+.hero{padding:50px 20px;text-align:center;background:linear-gradient(180deg,#1a1033,#0a0a12)}
+.hero h1{font-size:42px;line-height:1.1}.hero h1 span{color:#b79cff}
+.hero p{max-width:650px;margin:16px auto;color:#ccc;line-height:1.6}
+.hero .badge{background:#222;padding:8px 14px;border-radius:20px;font-size:13px;display:inline-block}
+.story{padding:40px 20px;max-width:800px;margin:auto;text-align:center;line-height:1.7;color:#ddd}
+.story h2{color:#b79cff;margin-bottom:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;padding:20px;max-width:1100px;margin:auto}
+.card{background:#15151f;border-radius:16px;overflow:hidden;border:1px solid #26263a}
+.card .img{height:260px;background:linear-gradient(135deg,#b79cff,#4a3a7a);display:flex;align-items:center;justify-content:center;font-size:60px}
+.card .info{padding:14px}.card h3{font-size:17px}.card p{font-size:13px;color:#aaa;margin:6px 0}
+.price{font-weight:800;font-size:18px}.price s{color:#777;font-size:14px}
+.dots span{width:18px;height:18px;border-radius:50%;display:inline-block;border:2px solid #fff;margin-right:5px;cursor:pointer}
+select,button,input,textarea{padding:10px;border-radius:10px;border:1px solid #333;background:#222;color:#fff;width:100%;margin-top:8px}
+.btn{background:#b79cff;color:#000;font-weight:800;border:0;cursor:pointer}
+.btn2{background:#25D366;color:#fff;font-weight:800;border:0;cursor:pointer}
+.btn3{background:#fff;color:#000;font-weight:800;border:0;cursor:pointer}
+.section{max-width:1100px;margin:auto;padding:30px 20px}
+.four{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}@media(max-width:700px){.four{grid-template-columns:1fr 1fr}.hero h1{font-size:30px}}
+.fcard{background:#15151f;padding:18px;border-radius:14px;text-align:center}
+#cartDrawer{position:fixed;right:0;top:0;width:380px;max-width:95%;height:100%;background:#111;z-index:99;padding:20px;overflow:auto;display:none;border-left:1px solid #333}
+.cart-item{background:#1c1c28;padding:12px;border-radius:12px;margin:10px 0;display:flex;justify-content:space-between;gap:10px}
+.qty button{width:30px;display:inline-block}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.8);display:none;align-items:center;justify-content:center;z-index:100}
+.modal>div{background:#15151f;width:420px;max-width:92%;max-height:90vh;overflow:auto;padding:20px;border-radius:16px}
+footer{padding:30px;text-align:center;color:#888;border-top:1px solid #222}
+</style>
+</head>
+<body>
+
+<header>
+<b>7 <span>ECLIPSES</span> • 52Hz</b>
+<nav><a href="#shop">Shop</a><a href="#story">Story</a><a href="#fabric">Fabric</a><a href="#how">How To Order</a></nav>
+<button class="cart-btn" onclick="openCart()">🛒 Cart (<span id="cartCount">0</span>) • Wishlist ♥</button>
+</header>
+
+<div class="hero">
+<span class="badge">EST. 2026 • By Shikha • @7__eclipses</span>
+<h1>THE WHALE WHO SANG<br><span>AT 52Hz</span><br>AND NO ONE HEARD.</h1>
+<p>Samundar ki gehrai me ek whale hai, jo duniya ki sabse akeli awaaz me gaata hai - 52Hz pe. Baaki whales 15-25Hz pe gaate hain. Uski awaaz koi sun nahi pata. Par wo gaana band nahi karta.</p>
+<p><b>7 ECLIPSES is for people like him.</b> Jo alag hain. Jo feel zyada karte hain. Jo bheed me bhi apni awaaz nahi badalte. Tum akeli nahi ho, tum 52Hz ho.</p>
+<button class="btn" onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">SHOP THE COLLECTION ↓</button>
+</div>
+
+<div class="story" id="story">
+<h2>🐋 WHY 52Hz?</h2>
+<p>52Hz whale duniya ka loneliest whale kehlata hai. Scientists ne use saalon se track kiya, wo har saal migrate karta hai, gaata hai, zinda hai - bina is umeed ke ki koi jawab dega. <br><br><b>Ye brand usi himmat ke liye hai - JUST BE YOURSELF, DONE PLEASING PEOPLE, BE STRONG.</b> Har tee ek yaad hai ki tumhari awaaz keemat rakhti hai, chahe duniya sune ya na sune.</p>
+</div>
+
+<div class="section" id="fabric">
+<h2>Comfort of tee's of 7ECLIPSES</h2>
+<div class="four" style="margin-top:14px">
+<div class="fcard">🧵<h3>200 GSM Cotton</h3><p>Pure Cotton Single Jersey Soft Fabric</p></div>
+<div class="fcard">👕<h3>Loose Fit</h3><p>Drop Shoulder • Unisex</p></div>
+<div class="fcard">🎨<h3>DTF Print</h3><p>Long-lasting, No Fade Print</p></div>
+<div class="fcard">🎨<h3>4 Colours</h3><p>Black • White • Lavender • Brown</p></div>
+</div>
+<p style="margin-top:10px;color:#aaa;font-size:13px">Size Chart: S / M / L / XL available on every product. Colours dots per t-shirt pe select karo.</p>
+</div>
+
+<div class="section" id="shop">
+<h2>Shop Collection - ₹599 Only</h2>
+<p style="color:#aaa">1 Tee = ₹599 + ₹60 Delivery = ₹659 | Combo of 2 / 3 = FREE Delivery + Free Gift 🎁</p>
+<div class="grid" id="products"></div>
+</div>
+
+<div class="section" id="how">
+<h2>How To Order - Myntra Jaisa Easy</h2>
+<p>1. Tee + Size + Colour choose karo → 2. Add to Cart → 3. Cart me Place Order pe Address bharo → 4. UPI / COD choose karo → 5. Order via WhatsApp ya Google Form se confirm karo. Order seedha Google Sheet me jayega.</p>
+</div>
+
+<!-- CART -->
+<div id="cartDrawer">
+<h2>Your Cart 🛒 <button onclick="closeCart()" style="width:auto;float:right">X</button></h2>
+<div id="cartItems"></div>
+<div id="bill"></div>
+<button class="btn" onclick="openCheckout()">PLACE ORDER → Address Yahan Bharein</button>
+<p style="font-size:12px;color:#aaa;margin-top:8px">Address option sirf yahan Cart me hai. Product page pe address nahi manga jayega.</p>
+</div>
+
+<!-- CHECKOUT MODAL - ADDRESS ONLY HERE -->
+<div class="modal" id="checkoutModal">
+<div>
+<h2>Place Order - Address Details</h2>
+<input id="name" placeholder="Full Name *">
+<input id="phone" placeholder="Phone / WhatsApp Number *">
+<textarea id="address" placeholder="Full Address - House, Street, City, Pincode *"></textarea>
+<input id="pincode" placeholder="Pincode *">
+<select id="payment"><option value="UPI">UPI Payment</option><option value="COD">Cash On Delivery (COD)</option></select>
+<p id="orderSummary" style="font-size:14px;color:#ccc"></p>
+<button class="btn" onclick="placeOrder('whatsapp')">Order on WhatsApp - 9220657676</button>
+<button class="btn3" onclick="placeOrder('form')">Order via Google Form</button>
+<button class="btn2" onclick="placeOrder('sheet')">Confirm Order - Save to Google Sheet</button>
+<button onclick="closeCheckout()" style="background:#333">Close</button>
+<p style="font-size:12px;color:#aaa">WhatsApp: 9220657676 / 9267917955 • Form: tinyurl.com/7-eclipses</p>
+</div>
+</div>
+
+<footer>7 ECLIPSES © 2026 • Designed by Shikha • Instagram @7__eclipses • WhatsApp 9220657676</footer>
+
+<script>
+// Firebase Config - YAHAN APNI NAYI KEY DALO
+const firebaseConfig = {
+  apiKey: "PASTE_YOUR_NEW_KEY_HERE",
+  authDomain: "eclipses-1bf5c.firebaseapp.com",
+  projectId: "eclipses-1bf5c",
+  storageBucket: "eclipses-1bf5c.firebasestorage.app",
+  messagingSenderId: "6227080265",
+  appId: "1:6227080265:web:dcb578bf5f4df67ee0fb98",
+  measurementId: "G-F6CGLG3D4D"
+};
+
+const products = [
+["BORA","Lavender, White","🐋"],["FLY WITH 52","White","🐳"],["BE STRONG","Lavender, White","💪"],
+["A HUGE WE ALL WAITED FOR","Lavender, White","✨"],["RAINY DAYS","Black, White","🌧️"],["MY EGO IS MY PROTECTION - 2.18","Black, White","🛡️"],
+["APNA HAQ MANGA H AAPKI JAYDAD NAHI","Black, White","🔥"],["JUST BE YOURSELF","Black, White","💜"],["DONE PLEASING PEOPLE","Black, White","✌️"],
+["SMALL WHALE","Black, White","🐋"],["Gentle man","Black, White","🤵"]
+];
+let cart = [];
+const grid = document.getElementById('products');
+products.forEach((p,i)=>{
+  grid.innerHTML += `<div class="card"><div class="img">${p[2]}</div><div class="info"><h3>${p[0]}</h3><p>${p[1]} • 200 GSM • Loose Fit</p><div class="dots"><span style="background:#000"></span><span style="background:#fff"></span><span style="background:#c9b8ff"></span><span style="background:#7a4a2b"></span></div><select id="size${i}"><option>S</option><option>M</option><option selected>L</option><option>XL</option></select><select id="color${i}"><option>Black</option><option>White</option><option>Lavender</option><option>Brown</option></select><div class="price">₹599 <s>₹999</s></div><button class="btn" onclick="addToCart(${i})">Add To Cart</button></div></div>`;
+});
+function addToCart(i){
+  let size=document.getElementById('size'+i).value, color=document.getElementById('color'+i).value;
+  let found=cart.find(x=>x.i==i&&x.size==size&&x.color==color);
+  if(found) found.qty++; else cart.push({i,size,color,qty:1});
+  updateCart(); openCart();
+}
+function updateCart(){
+  document.getElementById('cartCount').innerText=cart.reduce((a,b)=>a+b.qty,0);
+  let html='', total=0;
+  cart.forEach((c,idx)=>{
+    let p=products[c.i]; total+=599*c.qty;
+    html+=`<div class="cart-item"><div><b>${p[0]}</b><br><small>${c.size} • ${c.color}</small><br>₹599 x ${c.qty}</div><div class="qty"><button onclick="changeQty(${idx},1)">+</button> ${c.qty} <button onclick="changeQty(${idx},-1)">-</button><br><button onclick="removeItem(${idx})" style="background:#ff4444;margin-top:5px">Delete</button></div></div>`;
+  });
+  let delivery = cart.length==0?0:(cart.reduce((a,b)=>a+b.qty,0)>=2?0:60);
+  let gift = cart.reduce((a,b)=>a+b.qty,0)>=2 ? '<p style="color:#7CFC00">🎁 FREE Delivery + Free Gift Unlocked!</p>' : '<p style="color:#aaa">Add 1 more tee for FREE Delivery + Free Gift</p>';
+  document.getElementById('cartItems').innerHTML=html||'Cart empty hai';
+  document.getElementById('bill').innerHTML=`${gift}<p>Subtotal: ₹${total}<br>Delivery: ₹${delivery}<br><b>Total: ₹${total+delivery}</b></p>`;
+  document.getElementById('orderSummary').innerText=`Total: ₹${total+delivery} • Items: ${cart.reduce((a,b)=>a+b.qty,0)} • Payment: `+document.getElementById('payment').value;
+}
+function changeQty(idx,d){ cart[idx].qty+=d; if(cart[idx].qty<=0) cart.splice(idx,1); updateCart(); }
+function removeItem(idx){ cart.splice(idx,1); updateCart(); }
+function openCart(){ document.getElementById('cartDrawer').style.display='block'; updateCart(); }
+function closeCart(){ document.getElementById('cartDrawer').style.display='none'; }
+function openCheckout(){ if(cart.length==0){alert('Cart empty hai');return;} closeCart(); document.getElementById('checkoutModal').style.display='flex'; updateCart(); }
+function closeCheckout(){ document.getElementById('checkoutModal').style.display='none'; }
+
+async function placeOrder(type){
+  let name=document.getElementById('name').value, phone=document.getElementById('phone').value, address=document.getElementById('address').value, pin=document.getElementById('pincode').value;
+  if(!name||!phone||!address||!pin){ alert('Please address details poora bharo - Name, Phone, Address, Pincode'); return; }
+  let items=cart.map(c=>`${products[c.i][0]} (${c.size}/${c.color} x${c.qty})`).join(', ');
+  let totalText=document.getElementById('bill').innerText;
+  let msg=`New Order - 7 ECLIPSES%0AName: ${name}%0APhone: ${phone}%0AAddress: ${address}, ${pin}%0AItems: ${items}%0A${totalText}%0APayment: ${document.getElementById('payment').value}`;
+  if(type=='whatsapp'){ window.open(`https://wa.me/919220657676?text=${msg}`,'_blank'); }
+  if(type=='form'){ window.open('https://tinyurl.com/7-eclipses','_blank'); }
+  if(type=='sheet'){
+    // Ye tumhare api/place-order.js ko call karega -> Google Sheet me jayega
+    try{
+      await fetch('/api/place-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,phone,address,pincode:pin,items,payment:document.getElementById('payment').value})});
+      alert('Order Saved! Hum WhatsApp pe confirm karenge. Thank you for being 52Hz 💜');
+    }catch(e){ alert('Order note ho gaya, WhatsApp pe bhi bhej do'); window.open(`https://wa.me/919220657676?text=${msg}`,'_blank'); }
+  }
+}
+</script>
+</body>
+</html>
